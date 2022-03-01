@@ -1,0 +1,88 @@
+@charset "utf-8";
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+body {
+    font-family: 'NanumSquareRound';
+    font-weight: 800;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.BrandTitle {
+    font-size: 23px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.TopMenu {
+    background: #282828;
+}
+
+.TopMenu ul {
+    width: 800px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.TopMenu ul li {
+    float: left;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #282828;
+}
+
+.TopMenu ul li a {
+    display: block;
+    color: #bfbfbf;
+    opacity:60%;
+    transition: 0.3s;
+}
+
+.TopMenu ul li a:hover {
+    opacity:85%;
+    color: #fff;
+}
+
+#menu ul li {
+    margin: 0px;
+    padding: 0px;
+}
+
+.BrandTitle{
+    float: left;
+    width: 16%;
+    height: 45px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+.BrandTitle{
+    position: relative;
+    top: 2px;
+}
+
+.BrandTitle a {
+    color: #dedede;
+    opacity: 70%;
+    transition: 0.5s;
+}
+.BrandTitle a:hover {
+    color: #fff;
+    opacity: 90%;
+}
+
+#logo-img {
+
+}
+
